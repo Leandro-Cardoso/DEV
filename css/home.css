@@ -1,0 +1,13 @@
+main .home-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+main .home-title span {
+    color: var(--color-primary);
+
+    font-size: calc(var(--font-size-h1) * 1.5);
+    font-weight: var(--font-weight-bold);
+}
