@@ -1,0 +1,23 @@
+.div-about,
+.div-about .about-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-about .about-text {
+    gap: var(--spacing);
+    text-align: center;
+}
+
+.div-about .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+@media (max-width: 999px) {
+    .div-about .about-content {
+        flex-direction: column;
+    }
+}
