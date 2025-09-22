@@ -18,8 +18,8 @@ async function loadComponent(elementId, componentUrl) {
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    //loadComponent('header-container', 'components/header.html');
-    loadComponent('div-about', 'components/div-about.html');
-    //loadComponent('footer-container', 'components/footer.html');
+    //loadComponent('header-container', './components/header.html');
+    loadComponent('div-about', './components/div-about.html');
+    loadComponent('footer-container', './components/footer.html');
 
 });

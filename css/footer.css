@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing);
+
+    padding: var(--spacing);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+footer img {
+    height: 50px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+footer img:hover {
+    height: 40px;
+}
