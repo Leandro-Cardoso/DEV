@@ -1,0 +1,25 @@
+.div-techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+.div-techs ul {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: var(--spacing);
+}
+
+.div-techs li {
+    width: 100px;
+}
+
+.div-techs img {
+    height: 30px;
+}

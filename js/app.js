@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadComponent('header', './components/header.html');
     loadComponent('div-about', './components/div-about.html');
+    loadComponent('div-techs', './components/div-techs.html');
     loadComponent('footer', './components/footer.html');
 
 });

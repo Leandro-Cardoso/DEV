@@ -104,6 +104,10 @@ h1 {
     padding: var(--spacing);
 }
 
+h2 {
+    text-align: center;
+}
+
 strong {
     color: var(--color-primary);
 
