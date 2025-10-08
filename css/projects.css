@@ -1,3 +1,62 @@
+.projects {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: var(--spacing);
+}
+
+.project {
+    width: calc(2 * var(--spacing) + 300px);
+    padding: var(--spacing);
+    border: 3px solid var(--color-primary);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: var(--spacing);
+}
+
+.project-img {
+    width: 100%;
+    height: 300px;
+}
+
+.project-title-techs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+.techs {
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: var(--spacing);
+}
+
+.tech-img {
+    height: 30px;
+}
+
+.projects .btns {
+    margin-top: auto;
+}
+
+.projects .btn {
+    width: calc(4 * var(--spacing));
+}
+
+/*
 ul.projects {
     list-style-type: none;
     padding: 0;
@@ -78,3 +137,4 @@ a.button:hover {
 img.button-img {
     height: calc(var(--spacing) * 2);
 }
+*/

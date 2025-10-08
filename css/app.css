@@ -50,6 +50,12 @@
 }
 
 /* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 h2,
 h3,
 p {
@@ -69,8 +75,6 @@ body {
     font-family: var(--font-family-base), var(--font-family-secundary);
     font-weight: var(--font-weight);
     font-size: var(--font-size);
-
-    box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
@@ -134,7 +138,8 @@ a:hover {
 /* Lists */
 ul {
     margin: 0;
-    padding: 0 0 0 2rem;
+    padding: 0;
+    list-style-type: none;
 }
 
 /* Divs */
@@ -146,4 +151,42 @@ main {
     flex-grow: 1;
 
     padding: var(--spacing) 0;
+}
+
+/* Forms */
+.btns {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+}
+
+.btn {
+    width: 200px;
+    padding: var(--spacing);
+    border: 3px solid var(--color-primary);
+    border-radius: var(--border-radius);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+
+    transition: all 0.5ss ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--color-link);
+
+    transition: all 0.5ss ease-in-out;
+}
+
+.btn img {
+    height: calc(2 * var(--font-size));
 }
