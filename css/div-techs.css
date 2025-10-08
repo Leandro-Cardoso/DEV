@@ -6,7 +6,10 @@
 }
 
 .div-techs ul {
+    background-color: var(--color-background-secundary);
+    border-radius: var(--border-radius);
     width: 100%;
+    padding: var(--spacing);
 
     display: flex;
     flex-direction: row;

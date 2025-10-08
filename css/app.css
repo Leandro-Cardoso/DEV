@@ -80,7 +80,7 @@ body {
     flex-direction: column;
 
     min-height: 100vh;
-    max-width: 1400px;
+    max-width: 1500px;
     padding: 0 var(--spacing);
     margin: 0 auto;
 }
@@ -178,13 +178,13 @@ main {
     align-items: center;
     gap: var(--spacing);
 
-    transition: all 0.5ss ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn:hover {
     background-color: var(--color-link);
 
-    transition: all 0.5ss ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn img {
