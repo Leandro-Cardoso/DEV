@@ -1,0 +1,33 @@
+.div-certifications {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing);
+}
+
+.certifications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing);
+}
+
+.certifications li {
+    background-color: var(--color-background-secundary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--spacing);
+    flex: 0 0 185px;
+}
+
+.certifications img {
+    height: 100px;
+}
