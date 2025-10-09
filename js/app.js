@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadComponent('div-about', './components/div-about.html');
     loadComponent('div-techs', './components/div-techs.html');
     loadComponent('div-academic-qualifications', './components/div-academic-qualifications.html');
+    loadComponent('div-languages', './components/div-languages.html');
     loadComponent('footer', './components/footer.html');
 
 });
