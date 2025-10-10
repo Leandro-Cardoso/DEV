@@ -3,74 +3,6 @@
     font-size: var(--font-size-h3);
 }
 
-/* Hard Skills */
-.skill-cards {
-    display: flex;
-    flex-direction: row;
-    gap: var(--spacing);
-
-    margin: 0 auto;
-}
-
-.academic-certifications-languages {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
-
-    min-width: 45%;
-}
-
-.skill-card {
-    background-color: var(--color-background-secundary);
-
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
-
-    border-radius: var(--spacing);
-    padding: var(--spacing);
-}
-
-.skill-card ul {
-    list-style-type: none;
-    padding: 0;
-
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing);
-}
-
-.skill-card li {
-    padding: var(--spacing);
-}
-
-.card-bicolor li:nth-child(even) {
-    background-color: var(--color-background-tertiary);
-}
-
-ul.techs {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    display: grid;
-}
-
-.techs li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    width: 150px;
-    margin: auto;
-}
-
-.techs li img {
-    height: 30px;
-    width: auto;
-}
-
 /* Soft Skills */
 .softskills-content {
     display: flex;
@@ -88,8 +20,7 @@ ul.techs {
 }
 
 @media (max-width: 999px) {
-    .softskills-content,
-    .skill-cards{
+    .softskills-content{
         flex-direction: column;
     }
 }
