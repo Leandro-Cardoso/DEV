@@ -1,0 +1,30 @@
+.div-work-experience {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+}
+
+.work-experiences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing);
+}
+
+.work-experiences li {
+    background-color: var(--color-background-secundary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    flex: 1 1 300px;
+}
+
+.work-experiences-description {
+    text-align: left;
+}
