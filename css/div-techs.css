@@ -21,6 +21,13 @@
 
 .div-techs li {
     width: 100px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: calc(var(--spacing) / 2);
 }
 
 .div-techs img {
