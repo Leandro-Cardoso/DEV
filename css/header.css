@@ -6,6 +6,7 @@ header {
     gap: var(--spacing);
 
     padding: var(--spacing);
+    position: relative;
 }
 
 header a {
