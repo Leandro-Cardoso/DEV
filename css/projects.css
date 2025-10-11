@@ -37,6 +37,10 @@
 
 .project-content {
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
 }
 
 .project-title-techs {
@@ -119,4 +123,10 @@
 
 .project.expanded .btn span {
     display: inline;
+}
+
+@media screen and (max-width: 800px) {
+    .project.expanded .project-img-content {
+        flex-direction: column;
+    }
 }
