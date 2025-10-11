@@ -13,10 +13,6 @@ header a {
     text-transform: uppercase;
 }
 
-header a.active {
-    color: var(--color-primary);
-}
-
 header img.active,
 header .language-selector img:hover {
     border: 3px solid var(--color-primary);

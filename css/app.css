@@ -131,7 +131,8 @@ a {
     transition: color 0.2s ease-in-out;
 }
 
-a:hover {
+a:hover,
+a:active {
     color: var(--color-primary);
 }
 
@@ -216,11 +217,11 @@ main {
 }
 
 .btn {
+    background-color: var(--color-primary);
     width: 200px;
     padding: var(--spacing);
-    border: 3px solid var(--color-primary);
     border-radius: var(--border-radius);
-    color: var(--color-primary);
+    color: var(--color-background-primary);
     font-weight: var(--font-weight-bold);
 
     display: flex;
@@ -232,14 +233,30 @@ main {
     transition: all 0.4s ease-in-out;
 }
 
-.btn:hover {
-    background-color: var(--color-link);
+.btn:hover,
+.btn:active {
+    background-color: var(--color-background-tertiary);
+    color: var(--color-primary);
 
     transition: all 0.4s ease-in-out;
 }
 
 .btn img {
     height: calc(2 * var(--font-size));
+}
+
+.btn img:nth-of-type(2) {
+    display: none;
+}
+
+.btn:hover > img:nth-of-type(1),
+.btn:active > img:nth-of-type(1) {
+    display: none;
+}
+
+.btn:hover > img:nth-of-type(2),
+.btn:active > img:nth-of-type(2) {
+    display: block;
 }
 
 /* Hide */
