@@ -24,3 +24,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 550px) {
+    .softskills-content img {
+        width: 100%;
+    }
+}

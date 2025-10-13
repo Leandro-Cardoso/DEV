@@ -130,3 +130,13 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 400px) {
+    .project,
+    .project-img {
+        width: 100%;
+    }
+    .project-img {
+        height: auto;
+    }
+}
