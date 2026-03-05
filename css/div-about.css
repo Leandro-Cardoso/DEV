@@ -6,7 +6,7 @@
 
 .div-about .about-text {
     gap: var(--spacing);
-    text-align: center;
+    text-align: left;
 }
 
 .div-about .about-content {
